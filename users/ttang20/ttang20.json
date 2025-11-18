@@ -1,0 +1,642 @@
+{
+  "Week A": {
+    "Monday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc12"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 43"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 43"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Mandarin",
+        "teacher": "Miss B Wu",
+        "room": "C2"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoui",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoui",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 43"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 43"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc12"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc12"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Lunch 3",
+        "start": "13:55",
+        "end": "14:30",
+        "lesson": "Ignore This Lesson",
+        "teacher": "Miss E Green",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr G Cook",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr G Cook",
+        "room": "N/A"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Mandarin Speaking",
+        "teacher": "Ms L Luo",
+        "room": "Speaking Room"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoul",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      }
+    ],
+    "Friday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc06"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc08"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Mandarin",
+        "teacher": "Miss B Wu",
+        "room": "C2"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Mandarin",
+        "teacher": "Miss B Wu",
+        "room": "C2"
+      }
+    ]
+  },
+  "Week B": {
+    "Monday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr Sahota",
+        "room": "Room 22"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc07"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Life Skills",
+        "teacher": "Mrs E Rothwell",
+        "room": "Room 34"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Life Skills",
+        "teacher": "Mrs E Rothwell",
+        "room": "Room 34"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "C2"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Mandarin",
+        "teacher": "Miss B Wu",
+        "room": "C2"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoul",
+        "room": "B5"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoui",
+        "room": "B5"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "B5"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "B5"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mandarin",
+        "teacher": "Ms M Jang",
+        "room": "Room 39"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr G Cook",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr G Cook",
+        "room": "N/A"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Chemistry",
+        "teacher": "Mr R Prasitsoon thorn",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 22"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoui",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Biology",
+        "teacher": "Ms E Seddaoul",
+        "room": "Sc08"
+      }
+    ],
+    "Friday": [
+      {
+        "period": "Period 1",
+        "start": "8:25",
+        "end": "9:15",
+        "lesson": "Mathematics",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 18"
+      },
+      {
+        "period": "Period 2",
+        "start": "9:15",
+        "end": "10:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 18"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "N/A",
+        "teacher": "N/A",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mandarin",
+        "teacher": "Miss B Wu",
+        "room": "C2"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mandarin",
+        "teacher": "Ms B Wu",
+        "room": "C2"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr D H Paul",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Chemistry",
+        "teacher": "Miss R Thomas",
+        "room": "Sc11"
+      }
+    ]
+  }
+}

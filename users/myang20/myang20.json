@@ -1,0 +1,93 @@
+{
+"Week A": {
+"Monday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Chemistry", "teacher": "Howarth", "room": "B1"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Chemistry", "teacher": "Howarth", "room": "B1"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Life Skills", "teacher": "Waddington", "room": "Room 45"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Life Skills", "teacher": "Waddington", "room": "Room 45"}
+],
+"Tuesday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Chemistry", "teacher": "Paul", "room": "B5"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Pure", "teacher": "Chang", "room": "Room 33"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Mechanics", "teacher": "Vijayan", "room": "Room 34"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Economics", "teacher": "Suchak", "room": "P32"}
+],
+"Wednesday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Stats", "teacher": "Conlan", "room": "Room 18"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Chemistry", "teacher": "Howarth", "room": "Sc10"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Chemistry", "teacher": "Howarth", "room": "Sc10"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Lunch 3", "start": "13:55", "end": "14:30", "lesson": "Ignore This Lesson", "teacher": "Green", "room": "N/A"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Games", "teacher": "Murray", "room": "N/A"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Games", "teacher": "Murray", "room": "N/A"}
+],
+"Thursday": [
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Mechanics", "teacher": "Vijayan", "room": "Room 34"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Tu", "teacher": "Oxburgh", "room": "B7"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Stats", "teacher": "Conlan", "room": "Room 33"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Stats", "teacher": "Conlan", "room": "Room 33"}
+],
+"Friday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Stats", "teacher": "Conlan", "room": "Room 33"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Chemistry", "teacher": "Paul", "room": "B5"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Chemistry", "teacher": "Paul", "room": "B5"}
+]
+},
+"Week B": {
+"Monday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Pure", "teacher": "Chang", "room": "Room 19"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Pure", "teacher": "Chang", "room": "Room 19"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Fun Maths", "teacher": "Sahota", "room": "Room 22"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"}
+],
+"Tuesday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Chemistry", "teacher": "Howarth", "room": "Sc11"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Chemistry", "teacher": "Howarth", "room": "Sc11"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Stats", "teacher": "Conlan", "room": "Room 18"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Mechanics", "teacher": "Vijayan", "room": "Room 34"}
+],
+"Wednesday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Chemistry", "teacher": "Paul", "room": "Sc11"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Chemistry", "teacher": "Paul", "room": "Sc11"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Games", "teacher": "Murray", "room": "N/A"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Games", "teacher": "Murray", "room": "N/A"}
+],
+"Thursday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Economics", "teacher": "Suchak", "room": "P32"},
+{"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Pure", "teacher": "Chang", "room": "Room 20"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Stats", "teacher": "Conlan", "room": "Room 18"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Stats", "teacher": "Conlan", "room": "Room 18"}
+],
+"Friday": [
+{"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Mechanics", "teacher": "Vijayan", "room": "Room 36"},
+{"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Mechanics", "teacher": "Vijayan", "room": "Room 36"},
+{"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Chemistry", "teacher": "Paul", "room": "B1"},
+{"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Chemistry", "teacher": "Paul", "room": "B1"},
+{"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Oxburgh", "room": "Sc12"},
+{"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"},
+{"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Economics", "teacher": "Goldsmith", "room": "P32"}
+]
+}
+}

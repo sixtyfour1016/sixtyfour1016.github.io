@@ -1,0 +1,87 @@
+Transcribe timetable grids from two PDF files—one named with "Week A" and one with "Week B" in the file name—into structured JSON by week, day, and period, exactly as shown below.
+
+- Each PDF file represents a single week, as indicated by either "Week A" or "Week B" in its filename.
+- For each file, extract the timetable grid and assign its contents under either the "Week A" or "Week B" top-level JSON key based on the file name.
+- Output JSON only—no extra text or markdown.
+
+- Structure: top keys are weeks ("Week A" and "Week B"), each with days ("Monday"–"Friday"), each day is an array of objects for every lesson (including registration) in timetable order.
+- For every period/registration shown, capture:
+  - "period": period number (string, e.g. "1", "Registration")
+  - "start": ("HH:MM")
+  - "end": ("HH:MM")
+  - "lesson": lesson/registration name (or "N/A")
+  - "teacher": teacher (or "N/A")
+  - "room": room (or "N/A")
+- Use "N/A" if any value is missing or unreadable.
+- Omit any week, day, or period not present in the PDFs.
+- Preserve order exactly as displayed in each timetable grid.
+
+# Steps
+
+1. For each input file:
+   - Identify whether the file represents "Week A" or "Week B" by its filename.
+   - Read the timetable grid from the PDF.
+   - For every day of the week and every period/registration, extract all required fields.
+   - Use "N/A" for any field that is missing or unreadable.
+   - Repeat until the entire timetable for each file has been transcribed.
+2. Structure the results under either "Week A" or "Week B" at the top level of the JSON object, according to which file the data comes from.
+3. Only include weeks, days, and periods present in the input files.
+
+# Output Format
+
+Output should be a single JSON object with exactly this structure:
+
+{
+  "Week A": {
+    "Monday": [
+      {"period": "Period 1", "start": "[start]", "end": "[end]", "lesson": "[lesson]", "teacher": "[teacher]", "room": "[room]"},
+      {"period": "Period 2", ...},
+      ...
+    ],
+    "Tuesday": [
+      ...
+    ]
+    // Continue for all days present for Week A
+  },
+  "Week B": {
+    // Structure repeats for Week B with all its days and periods
+  }
+}
+
+- Every period/registration is an object with all six fields—never omit any.
+- Period numbers are always strings.
+- Use "Lunch 1" as the period value for registration blocks.
+- Use "N/A" (including quotes) for missing/unreadable fields.
+
+# Examples
+
+Example input (description only):  
+You receive two PDF files: "week_a.pdf" (shows "Week A" grid) and "week_b.pdf" (shows "Week B" grid). "Week A", "Monday", period 1 is Physics at 08:25-09:15 (Mr J H Hunt, Sc03), period 2 is Further Mathematics at 09:15-10:00 (Mr Sahota, Room 22), period 3's room is unreadable.
+
+Example output:
+{
+  "Week A": {
+    "Monday": [
+      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Physics", "teacher": "Mr J H Hunt", "room": "Sc03"},
+      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Further Mathematics", "teacher": "Mr Sahota", "room": "Room 22"},
+      {"period": "Period 3", "start": "[start]", "end": "[end]", "lesson": "[lesson]", "teacher": "[teacher]", "room": "N/A"}
+      // ... more periods in order.
+    ]
+    // ... more days if present
+  },
+  "Week B": {
+    // Data from Week B's PDF, using same structure
+  }
+}
+
+(Real examples should include full details for all days and both weeks, with appropriate placeholders for any missing or unreadable data fields.)
+
+# Notes
+
+- Always match JSON structure exactly—no comments, no headings, no markdown.
+- Only include weeks, days, and periods found in the PDFs.
+- Each period/registration object must have all six fields, even if some are "N/A".
+- Keep the output easily editable (simply copy, add, or remove entries as needed).
+- Week A should be before Week B.
+Reminder:  
+Transcribe timetable grids from the two PDFs, using the file names to map each to "Week A" and "Week B" top-level keys. Produce a single structured JSON with all required fields, preserving the timetable order, and using "N/A" as needed.

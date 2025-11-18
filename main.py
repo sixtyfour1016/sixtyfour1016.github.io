@@ -1,0 +1,90 @@
+import argparse
+import subprocess
+import sys
+from pathlib import Path
+
+DEFAULT_MODEL = "gpt-4.1-mini"
+
+
+def run_step(cmd, description: str):
+    print(f"\n▶️ {description}")
+    subprocess.run(cmd, check=True)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="End-to-end timetable pipeline for a given username."
+    )
+    parser.add_argument("username", help="Student username (folder inside users/)")
+    parser.add_argument(
+        "--model",
+        default=DEFAULT_MODEL,
+        help="Model name passed to pdf_parser (default: gpt-4.1-mini).",
+    )
+    parser.add_argument(
+        "--prompt",
+        type=Path,
+        default=Path("table_prompt.txt"),
+        help="Path to the GPT prompt used when parsing PDFs.",
+    )
+    parser.add_argument(
+        "--skip-pdf",
+        action="store_true",
+        help="Skip PDF -> CSV parsing (expects CSVs to already exist).",
+    )
+    parser.add_argument(
+        "--skip-json",
+        action="store_true",
+        help="Skip CSV merge (expects merged JSON to already exist).",
+    )
+    parser.add_argument(
+        "--skip-ics",
+        action="store_true",
+        help="Skip ICS generation.",
+    )
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    repo_root = Path(__file__).resolve().parent
+    username = args.username
+
+    pdf_parser_path = repo_root / "pdf_parser.py"
+    csv_to_json_path = repo_root / "csv_to_json.py"
+    ics_path = repo_root / "ics.py"
+
+    if not args.skip_pdf:
+        for week in ("a", "b"):
+            run_step(
+                [
+                    sys.executable,
+                    str(pdf_parser_path),
+                    username,
+                    "--week",
+                    week,
+                    "--model",
+                    args.model,
+                    "--prompt",
+                    str(args.prompt),
+                ],
+                f"Parsing Week {week.upper()} PDF",
+            )
+
+    if not args.skip_json:
+        run_step(
+            [sys.executable, str(csv_to_json_path), username],
+            "Merging CSVs into JSON",
+        )
+
+    if not args.skip_ics:
+        run_step(
+            [sys.executable, str(ics_path), username],
+            "Generating ICS file",
+        )
+
+    print(f"\n✅ Pipeline complete for {username}")
+
+
+if __name__ == "__main__":
+    main()

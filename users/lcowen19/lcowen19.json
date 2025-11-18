@@ -1,0 +1,562 @@
+{
+  "Week A": {
+    "Monday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "B1"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc06"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Mathematics",
+        "teacher": "Mr J Jordan",
+        "room": "Room 25"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc03"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc03"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr J Jordan",
+        "room": "Room 25"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr J Jordan",
+        "room": "Room 25"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Lunch 3",
+        "start": "13:55",
+        "end": "14:30",
+        "lesson": "Ignore This Lesson",
+        "teacher": "Miss E Green",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Tu",
+        "teacher": "Mr M L Lewis",
+        "room": "C9"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Design",
+        "teacher": "Ms S Whyte / Miss L Green",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Design",
+        "teacher": "Miss L Green",
+        "room": "Design Department"
+      }
+    ],
+    "Friday": [
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      }
+    ]
+  },
+  "Week B": {
+    "Monday": [
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Design",
+        "teacher": "Miss L Green",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Design",
+        "teacher": "Ms S Whyte / Miss L Green",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc04"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "Sc04"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "English AS",
+        "teacher": "Mrs A Barlien",
+        "room": "Room 39"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mathematics",
+        "teacher": "Mr J Jordan",
+        "room": "Room 25"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mathematics",
+        "teacher": "Mr J Jordan",
+        "room": "Room 25"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "B1"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Physics",
+        "teacher": "Mr J W McCarthy",
+        "room": "B1"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Design",
+        "teacher": "Mr N L Creak",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "A Century of Cinema",
+        "teacher": "Mr J Jimenez",
+        "room": "Room 7"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      }
+    ],
+    "Friday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Design",
+        "teacher": "Miss L Green",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Design",
+        "teacher": "Miss L Green",
+        "room": "Design Department"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Mathematics",
+        "teacher": "Miss S De Brouwer",
+        "room": "Room 20"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc04"
+      }
+    ]
+  }
+}

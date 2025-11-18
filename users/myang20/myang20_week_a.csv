@@ -1,0 +1,34 @@
+day,period,start time,end time,lesson,teacher,room
+Monday,Period 1,08:25,09:15,Economics,Goldsmith,P32
+Monday,Period 2,09:15,10:00,Pure,Chang,Room 20
+Monday,Period 3,10:00,10:45,Pure,Chang,Room 20
+Monday,Period 4,11:15,12:00,Chemistry,Howarth,B1
+Monday,Period 5,12:00,12:45,Chemistry,Howarth,B1
+Monday,Lunch 1,12:45,13:20,Registration,Oxburgh,Sc12
+Monday,Period 6,14:30,15:15,Life Skills,Waddington,Room 45
+Monday,Period 7,15:15,16:00,Life Skills,Waddington,Room 45
+Tuesday,Period 1,08:25,09:15,Chemistry,Paul,B5
+Tuesday,Period 2,09:15,10:00,Pure,Chang,Room 33
+Tuesday,Period 4,11:15,12:00,Mechanics,Vijayan,Room 34
+Tuesday,Lunch 1,12:45,13:20,Registration,Oxburgh,Sc12
+Tuesday,Period 6,14:30,15:15,Economics,Suchak,P32
+Tuesday,Period 7,15:15,16:00,Economics,Suchak,P32
+Wednesday,Period 1,08:25,09:15,Stats,Conlan,Room 18
+Wednesday,Period 2,09:15,10:00,Chemistry,Howarth,Sc10
+Wednesday,Period 3,10:00,10:45,Chemistry,Howarth,Sc10
+Wednesday,Lunch 1,12:45,13:20,Registration,Oxburgh,Sc12
+Wednesday,Lunch 3,13:55,14:30,Ignore This Lesson,Green,N/A
+Wednesday,Period 6,14:30,15:15,Games,Murray,N/A
+Wednesday,Period 7,15:15,16:00,Games,Murray,N/A
+Thursday,Period 2,09:15,10:00,Economics,Suchak,P32
+Thursday,Period 3,10:00,10:45,Economics,Suchak,P32
+Thursday,Period 4,11:15,12:00,Mechanics,Vijayan,Room 34
+Thursday,Period 5,12:00,12:45,Tu,Oxburgh,B7
+Thursday,Lunch 1,12:45,13:20,Registration,Oxburgh,Sc12
+Thursday,Period 6,14:30,15:15,Stats,Conlan,Room 33
+Thursday,Period 7,15:15,16:00,Stats,Conlan,Room 33
+Friday,Period 1,08:25,09:15,Economics,Goldsmith,P32
+Friday,Period 4,11:15,12:00,Stats,Conlan,Room 33
+Friday,Lunch 1,12:45,13:20,Registration,Oxburgh,Sc12
+Friday,Period 6,14:30,15:15,Chemistry,Paul,B5
+Friday,Period 7,15:15,16:00,Chemistry,Paul,B5
