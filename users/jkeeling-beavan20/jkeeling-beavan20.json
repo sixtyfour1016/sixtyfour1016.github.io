@@ -59,8 +59,8 @@
       {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Mandarin", "teacher": "Ms M Jang", "room": "C2"},
       {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Mandarin", "teacher": "Miss B Wu", "room": "C2"},
       {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc13"},
+      {"period": "Mandarin Speaking", "start": "12:00", "end": "12:45", "lesson": "Mandarin Speaking", "teacher": "Ms L Luo", "room": "Speaking Room"},
       {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr D H Paul", "room": "Sc11"},
-
       {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Biology", "teacher": "Ms E Seddaoui", "room": "B5"},
       {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Biology", "teacher": "Ms E Seddaoui", "room": "B5"}
     ],
@@ -69,9 +69,6 @@
       {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "B5"},
 
       {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr D H Paul", "room": "Sc11"},
-
-      {"period": "Mandarin Speaking", "start": "12:00", "end": "12:45", "lesson": "Mandarin Speaking", "teacher": "Ms L Luo", "room": "Speaking Room"},
-
       {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Games", "teacher": "Mr G Cook", "room": "N/A"},
       {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Games", "teacher": "Mr G Cook", "room": "N/A"}
     ],
