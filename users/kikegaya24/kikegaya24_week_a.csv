@@ -1,0 +1,37 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Economics,Mr D Teh,P31
+Monday,Period 2,09:15,10:00,Physics,Mr A Birchmore,Sc07
+Monday,Period 3,10:00,10:45,Physics,Mr A Birchmore,Sc07
+Monday,Period 4,11:15,12:00,Further Mathematics,Ms T M Andrew,Room 36
+Monday,Period 5,12:00,12:45,Further Mathematics,Ms T M Andrew,Room 36
+Monday,Lunch 1,12:45,13:20,Registration,Mr M Cox,Art3
+Tuesday,Period 1,08:25,09:15,Further Mathematics,Mr A Jones,Room 45
+Tuesday,Period 2,09:15,10:00,Further Mathematics,Ms T M Andrew,Room 36
+Tuesday,Period 3,10:00,10:45,Further Mathematics,Ms T M Andrew,Room 36
+Tuesday,Period 4,11:15,12:00,Physics,Mr A Birchmore,Sc04
+Tuesday,Period 5,12:00,12:45,Physics,Mr I Thompson,B1
+Tuesday,Lunch 1,12:45,13:20,Registration,Mr M Cox,Art3
+Tuesday,Period 6,14:30,15:15,Economics,Mr PJ Goldsmith,P37
+Tuesday,Period 7,15:15,16:00,Economics,Mr PJ Goldsmith,P37
+Wednesday,Period 2,09:15,10:00,Further Mathematics,Mr T Chang,Room 20
+Wednesday,Period 3,10:00,10:45,Further Mathematics,Mr T Chang,Room 20
+Wednesday,Lunch 1,12:45,13:20,Registration,Mr M Cox,Art3
+Wednesday,Lunch 3,13:55,14:30,Ignore This Lesson,Miss E Green,N/A
+Wednesday,Period 6,14:30,15:15,Games,Mr J Boteler,N/A
+Wednesday,Period 7,15:15,16:00,Games,Mr J Boteler,N/A
+Thursday,Period 1,08:25,09:15,Introduction to investment and financial markets,Mr Y Nirwal,Room 36
+Thursday,Period 2,09:15,10:00,Economics,Mr PJ Goldsmith,P37
+Thursday,Period 3,10:00,10:45,Economics,Mr PJ Goldsmith,P37
+Thursday,Period 4,11:15,12:00,Further Mathematics,Ms T M Andrew,Room 36
+Thursday,Period 5,12:00,12:45,Tu,Mr M Cox,Art3
+Thursday,Lunch 1,12:45,13:20,Registration,Mr M Cox,Art3
+Thursday,Period 6,14:30,15:15,Physics,Mr I Thompson,Sc01
+Thursday,Period 7,15:15,16:00,Physics,Mr I Thompson,Sc01
+Friday,Period 1,08:25,09:15,Economics,Mr D Teh,P31
+Friday,Period 2,09:15,10:00,Introduction to investment and financial markets,Mr Y Nirwal,Room 37
+Friday,Period 3,10:00,10:45,Introduction to investment and financial markets,Mr Y Nirwal,Room 37
+Friday,Period 4,11:15,12:00,Further Mathematics,Mr T Chang,Room 36
+Friday,Period 5,12:00,12:45,Further Mathematics,Mr T Chang,Room 36
+Friday,Lunch 1,12:45,13:20,Registration,Mr M Cox,Art3
+Friday,Period 6,14:30,15:15,Further Mathematics,Mr A Jones,Room 31
+Friday,Period 7,15:15,16:00,Further Mathematics,Mr A Jones,Room 31

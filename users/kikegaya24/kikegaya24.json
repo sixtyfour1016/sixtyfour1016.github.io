@@ -1,17 +1,317 @@
 {
-  "Week B": {
+  "Week A": {
     "Monday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Economics",
+        "teacher": "Mr D Teh",
+        "room": "P31"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc07"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
         "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Physics",
+        "teacher": "Mr A Birchmore",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Physics",
+        "teacher": "Mr I Thompson",
+        "room": "B1"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Economics",
+        "teacher": "Mr PJ Goldsmith",
+        "room": "P37"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Economics",
+        "teacher": "Mr PJ Goldsmith",
+        "room": "P37"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr T Chang",
+        "room": "Room 20"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr T Chang",
+        "room": "Room 20"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      },
+      {
+        "period": "Lunch 3",
+        "start": "13:55",
+        "end": "14:30",
+        "lesson": "Ignore This Lesson",
+        "teacher": "Miss E Green",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr J Boteler",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr J Boteler",
+        "room": "N/A"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Introduction to investment and financial markets",
+        "teacher": "Mr Y Nirwal",
         "room": "Room 36"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Economics",
+        "teacher": "Mr PJ Goldsmith",
+        "room": "P37"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Economics",
+        "teacher": "Mr PJ Goldsmith",
+        "room": "P37"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Tu",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Physics",
+        "teacher": "Mr I Thompson",
+        "room": "Sc01"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Physics",
+        "teacher": "Mr I Thompson",
+        "room": "Sc01"
+      }
+    ],
+    "Friday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Economics",
+        "teacher": "Mr D Teh",
+        "room": "P31"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Introduction to investment and financial markets",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 37"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Introduction to investment and financial markets",
+        "teacher": "Mr Y Nirwal",
+        "room": "Room 37"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr T Chang",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr T Chang",
+        "room": "Room 36"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M Cox",
+        "room": "Art3"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 31"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Jones",
+        "room": "Room 31"
+      }
+    ]
+  },
+  "Week B": {
+    "Monday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Ms T M Andrew",
+        "room": "Room 36"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Physics",
         "teacher": "Mr A Birchmore",
@@ -53,15 +353,15 @@
     "Tuesday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "Further Mathematics",
         "teacher": "Mr T Chang",
         "room": "Room 32"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
         "teacher": "Mr T Chang",
@@ -104,7 +404,7 @@
         "start": "14:30",
         "end": "15:15",
         "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
+        "teacher": "Ms T M Andrew",
         "room": "Room 36"
       },
       {
@@ -112,25 +412,25 @@
         "start": "15:15",
         "end": "16:00",
         "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
+        "teacher": "Ms T M Andrew",
         "room": "Room 36"
       }
     ],
     "Wednesday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
+        "teacher": "Ms T M Andrew",
         "room": "Room 36"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
+        "teacher": "Ms T M Andrew",
         "room": "Room 36"
       },
       {
@@ -162,7 +462,7 @@
         "start": "14:30",
         "end": "15:15",
         "lesson": "Games",
-        "teacher": "Mr Boteler",
+        "teacher": "Mr J Boteler",
         "room": "N/A"
       },
       {
@@ -170,22 +470,22 @@
         "start": "15:15",
         "end": "16:00",
         "lesson": "Games",
-        "teacher": "Mr Boteler",
+        "teacher": "Mr J Boteler",
         "room": "N/A"
       }
     ],
     "Thursday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "Economics",
         "teacher": "Mr PJ Goldsmith",
         "room": "P37"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Economics",
         "teacher": "Mr PJ Goldsmith",
@@ -227,15 +527,15 @@
     "Friday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "Physics",
         "teacher": "Mr I Thompson",
         "room": "Sc02"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Physics",
         "teacher": "Mr I Thompson",
@@ -288,314 +588,6 @@
         "lesson": "Economics",
         "teacher": "Mr D Teh",
         "room": "P31"
-      }
-    ]
-  },
-  "Week A": {
-    "Monday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Economics",
-        "teacher": "Mr D Teh",
-        "room": "P31"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Physics",
-        "teacher": "Mr A Birchmore",
-        "room": "Sc07"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Physics",
-        "teacher": "Mr A Birchmore",
-        "room": "Sc07"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Physics",
-        "teacher": "Mr I Thompson",
-        "room": "Sc01"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Physics",
-        "teacher": "Mr Thompson",
-        "room": "Sc01"
-      }
-    ],
-    "Tuesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr A Jones",
-        "room": "Room 45"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr T Chang",
-        "room": "Room 20"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Economics",
-        "teacher": "Mr PJ Goldsmith",
-        "room": "P37"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      },
-      {
-        "period": "Lunch 3",
-        "start": "13:55",
-        "end": "14:30",
-        "lesson": "Ignore This Lesson",
-        "teacher": "Miss E Green",
-        "room": "Tu"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Games",
-        "teacher": "Mr Boteler",
-        "room": "B1"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Games",
-        "teacher": "Mr Boteler",
-        "room": "N/A"
-      }
-    ],
-    "Wednesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Introduction to investment and financial markets",
-        "teacher": "Mr Y Nirwal",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Further Mathematics",
-        "teacher": "Ms TM Andrew",
-        "room": "Room 36"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      }
-    ],
-    "Thursday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Economics",
-        "teacher": "Mr T Chang",
-        "room": "Room 20"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr PJ Goldsmith",
-        "room": "P37"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Physics",
-        "teacher": "Mr PJ Goldsmith",
-        "room": "P37"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Physics",
-        "teacher": "Mr A Birchmore",
-        "room": "Sc04"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "N/A",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Economics",
-        "teacher": "Mr PJ Goldsmith",
-        "room": "P37"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Economics",
-        "teacher": "Mr PJ Goldsmith",
-        "room": "P37"
-      }
-    ],
-    "Friday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Economics",
-        "teacher": "Mr D Teh",
-        "room": "P31"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Introduction to investment and financial markets",
-        "teacher": "Mr Y Nirwal",
-        "room": "Room 37"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Introduction to investment and financial markets",
-        "teacher": "Mr Y Nirwal",
-        "room": "Room 37"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr T Chang",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr T Chang",
-        "room": "Room 36"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr M Cox",
-        "room": "Art3"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr A Jones",
-        "room": "Room 31"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr A Jones",
-        "room": "Room 31"
       }
     ]
   }
