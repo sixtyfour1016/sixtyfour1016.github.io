@@ -1,97 +1,594 @@
 {
   "Week A": {
     "Monday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc08"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Biology", "teacher": "Mr J Davey", "room": "B5"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Biology", "teacher": "Mr J Davey", "room": "B5"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "B5"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "B5"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      }
     ],
     "Tuesday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "C4"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Biology", "teacher": "Mr J Davey", "room": "Sc09"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "Sc09"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc10"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc10"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "C4"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc09"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc10"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc10"
+      }
     ],
     "Wednesday": [
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 45"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 45"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Lunch 3", "start": "13:55", "end": "14:30", "lesson": "Ignore This Lesson", "teacher": "Miss E Green", "room": "N/A"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Games", "teacher": "Mr N Barry-Parker", "room": "N/A"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Games", "teacher": "Mr N Barry-Parker", "room": "N/A"}
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 45"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Lunch 3",
+        "start": "13:55",
+        "end": "14:30",
+        "lesson": "Ignore This Lesson",
+        "teacher": "Miss E Green",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      }
     ],
     "Thursday": [
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc05"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc05"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 44"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Tu", "teacher": "Mr M L Lewis", "room": "C9"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "B5"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "B5"}
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc05"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc05"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 44"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Tu",
+        "teacher": "Mr M L Lewis",
+        "room": "C9"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "B5"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "B5"
+      }
     ],
     "Friday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc04"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 45"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 45"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "Room 21"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "Room 21"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc04"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "Room 21"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "Room 21"
+      }
     ]
   },
   "Week B": {
     "Monday": [
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Biology", "teacher": "Mr J Davey", "room": "Sc08"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "Sc09"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc06"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc06"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"}
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "Sc08"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc06"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc06"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      }
     ],
     "Tuesday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "Room 21"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "Room 21"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc09"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Biology", "teacher": "Mr J Davey", "room": "Sc09"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Biology", "teacher": "Mr J Davey", "room": "Sc09"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "Room 21"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "Room 21"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "Sc09"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      }
     ],
     "Wednesday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 45"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Games", "teacher": "Mr N Barry-Parker", "room": "N/A"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Games", "teacher": "Mr N Barry-Parker", "room": "N/A"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 45"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Games",
+        "teacher": "Mr N Barry-Parker",
+        "room": "N/A"
+      }
     ],
     "Thursday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc11"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Chemistry", "teacher": "Miss A Gashi", "room": "Sc11"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Biology", "teacher": "Mr J Davey", "room": "Sc09"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Further Mathematics", "teacher": "Mr A Murray", "room": "Room 19"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Further Mathematics", "teacher": "Mr J Dean", "room": "Room 32"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Chemistry",
+        "teacher": "Miss A Gashi",
+        "room": "Sc11"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Biology",
+        "teacher": "Mr J Davey",
+        "room": "Sc09"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr A Murray",
+        "room": "Room 19"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr J Dean",
+        "room": "Room 32"
+      }
     ],
     "Friday": [
-      {"period": "Period 1", "start": "08:25", "end": "09:15", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "Sc09"},
-      {"period": "Period 2", "start": "09:15", "end": "10:00", "lesson": "Biology", "teacher": "Mr M Bartlett", "room": "Sc09"},
-      {"period": "Period 3", "start": "10:00", "end": "10:45", "lesson": "Medical Ethics", "teacher": "Mrs K J Burns", "room": "Room 42"},
-      {"period": "Period 4", "start": "11:15", "end": "12:00", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Period 5", "start": "12:00", "end": "12:45", "lesson": "Further Mathematics", "teacher": "Mr P M MacMahon", "room": "Room 35"},
-      {"period": "Lunch 1", "start": "12:45", "end": "13:20", "lesson": "Registration", "teacher": "Mr M L Lewis", "room": "Sc02"},
-      {"period": "Period 6", "start": "14:30", "end": "15:15", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc12"},
-      {"period": "Period 7", "start": "15:15", "end": "16:00", "lesson": "Chemistry", "teacher": "Dr B Howarth", "room": "Sc12"}
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Biology",
+        "teacher": "Mr M Bartlett",
+        "room": "Sc09"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Medical Ethics",
+        "teacher": "Mrs K J Burns",
+        "room": "Room 42"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr M L Lewis",
+        "room": "Sc02"
+      },
+      {
+        "period": "Period 6",
+        "start": "14:30",
+        "end": "15:15",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc12"
+      },
+      {
+        "period": "Period 7",
+        "start": "15:15",
+        "end": "16:00",
+        "lesson": "Chemistry",
+        "teacher": "Dr B Howarth",
+        "room": "Sc12"
+      }
     ]
   }
 }

@@ -1,0 +1,37 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Chemistry,Miss A Gashi,Sc08
+Monday,Period 2,09:15,10:00,Biology,Mr J Davey,B5
+Monday,Period 3,10:00,10:45,Biology,Mr J Davey,B5
+Monday,Period 4,11:15,12:00,Further Mathematics,Mr P M MacMahon,Room 35
+Monday,Period 5,12:00,12:45,Further Mathematics,Mr P M MacMahon,Room 35
+Monday,Lunch 1,12:45,13:20,Registration,Mr M L Lewis,Sc02
+Tuesday,Period 1,08:25,09:15,Further Mathematics,Mr J Dean,Room 32
+Tuesday,Period 2,09:15,10:00,Further Mathematics,Mr J Dean,Room 32
+Tuesday,Period 3,10:00,10:45,Further Mathematics,Mr A Murray,C4
+Tuesday,Period 4,11:15,12:00,Biology,Mr J Davey,Sc09
+Tuesday,Period 5,12:00,12:45,Biology,Mr M Bartlett,Sc09
+Tuesday,Lunch 1,12:45,13:20,Registration,Mr M L Lewis,Sc02
+Tuesday,Period 6,14:30,15:15,Chemistry,Miss A Gashi,Sc10
+Tuesday,Period 7,15:15,16:00,Chemistry,Miss A Gashi,Sc10
+Wednesday,Period 2,09:15,10:00,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Period 3,10:00,10:45,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Period 4,11:15,12:00,Medical Ethics,Mrs K J Burns,Room 45
+Wednesday,Period 5,12:00,12:45,Medical Ethics,Mrs K J Burns,Room 45
+Wednesday,Lunch 1,12:45,13:20,Registration,Mr M L Lewis,Sc02
+Wednesday,Lunch 3,13:55,14:30,Ignore This Lesson,Miss E Green,N/A
+Wednesday,Period 6,14:30,15:15,Games,Mr N Barry-Parker,N/A
+Wednesday,Period 7,15:15,16:00,Games,Mr N Barry-Parker,N/A
+Thursday,Period 2,09:15,10:00,Chemistry,Dr B Howarth,Sc05
+Thursday,Period 3,10:00,10:45,Chemistry,Dr B Howarth,Sc05
+Thursday,Period 4,11:15,12:00,Further Mathematics,Mr J Dean,Room 44
+Thursday,Period 5,12:00,12:45,Tu,Mr M L Lewis,C9
+Thursday,Lunch 1,12:45,13:20,Registration,Mr M L Lewis,Sc02
+Thursday,Period 6,14:30,15:15,Biology,Mr M Bartlett,B5
+Thursday,Period 7,15:15,16:00,Biology,Mr M Bartlett,B5
+Friday,Period 1,08:25,09:15,Chemistry,Miss A Gashi,Sc04
+Friday,Period 2,09:15,10:00,Medical Ethics,Mrs K J Burns,Room 45
+Friday,Period 3,10:00,10:45,Medical Ethics,Mrs K J Burns,Room 45
+Friday,Period 4,11:15,12:00,Further Mathematics,Mr J Dean,Room 32
+Friday,Lunch 1,12:45,13:20,Registration,Mr M L Lewis,Sc02
+Friday,Period 6,14:30,15:15,Further Mathematics,Mr A Murray,Room 21
+Friday,Period 7,15:15,16:00,Further Mathematics,Mr A Murray,Room 21
