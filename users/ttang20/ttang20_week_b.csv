@@ -1,0 +1,37 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Biology,Mr M Bartlett,Sc07
+Monday,Period 2,09:15,10:00,Mathematics,Mr Sahota,Room 22
+Monday,Period 3,10:00,10:45,Mathematics,Mr A Jones,Room 45
+Monday,Period 4,11:15,12:00,Chemistry,Mr R Prasitsoon thorn,Sc07
+Monday,Period 5,12:00,12:45,Chemistry,Mr R Prasitsoon thorn,Sc07
+Monday,Lunch 1,12:45,13:20,Registration,Mr D H Paul,Sc11
+Monday,Period 6,14:30,15:15,Life Skills,Mrs E Rothwell,Room 34
+Monday,Period 7,15:15,16:00,Life Skills,Mrs E Rothwell,Room 34
+Tuesday,Period 1,08:25,09:15,Mandarin,Ms M Jang,C2
+Tuesday,Period 2,09:15,10:00,Mandarin,Miss B Wu,C2
+Tuesday,Period 3,10:00,10:45,Chemistry,Mr R Prasitsoon thorn,Sc08
+Tuesday,Period 4,11:15,12:00,Mathematics,Mr A Jones,Room 45
+Tuesday,Period 5,12:00,12:45,Mathematics,Mr A Jones,Room 45
+Tuesday,Lunch 1,12:45,13:20,Registration,Mr D H Paul,Sc11
+Tuesday,Period 6,14:30,15:15,Biology,Ms E Seddaoui,B5
+Tuesday,Period 7,15:15,16:00,Biology,Ms E Seddaoui,B5
+Wednesday,Period 1,08:25,09:15,Biology,Mr M Bartlett,B5
+Wednesday,Period 2,09:15,10:00,Biology,Mr M Bartlett,B5
+Wednesday,Period 4,11:15,12:00,Mandarin,Ms M Jang,Room 39
+Wednesday,Period 5,12:00,12:45,Mandarin,Ms M Jang,Room 39
+Wednesday,Lunch 1,12:45,13:20,Registration,Mr D H Paul,Sc11
+Wednesday,Period 6,14:30,15:15,Games,Mr G Cook,N/A
+Wednesday,Period 7,15:15,16:00,Games,Mr G Cook,N/A
+Thursday,Period 1,08:25,09:15,Chemistry,Miss R Thomas,Sc07
+Thursday,Period 2,09:15,10:00,Chemistry,Mr R Prasitsoon thorn,Sc07
+Thursday,Period 3,10:00,10:45,Mathematics,Mr A Jones,Room 22
+Thursday,Lunch 1,12:45,13:20,Registration,Mr D H Paul,Sc11
+Thursday,Period 6,14:30,15:15,Biology,Ms E Seddaoui,Sc08
+Thursday,Period 7,15:15,16:00,Biology,Ms E Seddaoui,Sc08
+Friday,Period 1,08:25,09:15,Mathematics,Mr Y Nirwal,Room 18
+Friday,Period 2,09:15,10:00,Mathematics,Mr Y Nirwal,Room 18
+Friday,Period 4,11:15,12:00,Mandarin,Miss B Wu,C2
+Friday,Period 5,12:00,12:45,Mandarin,Miss B Wu,C2
+Friday,Lunch 1,12:45,13:20,Registration,Mr D H Paul,Sc11
+Friday,Period 6,14:30,15:15,Chemistry,Miss R Thomas,Sc11
+Friday,Period 7,15:15,16:00,Chemistry,Miss R Thomas,Sc11
