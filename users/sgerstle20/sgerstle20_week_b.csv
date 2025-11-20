@@ -1,0 +1,37 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Further Mathematics,Mr P M MacMahon,Room 35
+Monday,Period 2,09:15,10:00,Further Mathematics,Mr D Lafferty,Room 21
+Monday,Period 3,10:00,10:45,Further Mathematics,Mr S Vijayan,Room 34
+Monday,Period 4,11:15,12:00,English,Mr J Mitropoulos-Monk,Room 38
+Monday,Period 5,12:00,12:45,English,Mr J Mitropoulos-Monk,Room 38
+Monday,Lunch 1,12:45,13:20,Registration,Mr J H Hunt,Sc03
+Monday,Period 6,14:30,15:15,Life Skills,Miss B Wu,Room 19
+Monday,Period 7,15:15,16:00,Life Skills,Miss B Wu,Room 19
+Tuesday,Period 1,08:25,09:15,Chemistry,Dr R Oxburgh,Sc12
+Tuesday,Period 2,09:15,10:00,Chemistry,Dr R Oxburgh,Sc12
+Tuesday,Period 3,10:00,10:45,English,Mr J Garrett,Room 38
+Tuesday,Period 4,11:15,12:00,Further Mathematics,Mr Sahota,Room 22
+Tuesday,Period 5,12:00,12:45,Further Mathematics,Mr Sahota,Room 22
+Tuesday,Lunch 1,12:45,13:20,Registration,Mr J H Hunt,Sc03
+Wednesday,Period 1,08:25,09:15,Further Mathematics,Mr Sahota,Room 46
+Wednesday,Period 2,09:15,10:00,Further Mathematics,Mr Sahota,Room 46
+Wednesday,Period 3,10:00,10:45,Playwriting,Mrs S W Woodham,Room 3
+Wednesday,Period 4,11:15,12:00,Chemistry,Miss A Gashi,B5
+Wednesday,Period 5,12:00,12:45,Chemistry,Miss A Gashi,B5
+Wednesday,Lunch 1,12:45,13:20,Registration,Mr J H Hunt,Sc03
+Wednesday,Period 6,14:30,15:15,Games,Mr G Cook,N/A
+Wednesday,Period 7,15:15,16:00,Games,Mr G Cook,N/A
+Thursday,Period 1,08:25,09:15,English,Mr J Mitropoulos-Monk,Room 38
+Thursday,Period 2,09:15,10:00,English,Mr J Mitropoulos-Monk,Room 38
+Thursday,Period 3,10:00,10:45,Further Mathematics,Mr S Vijayan,Room 34
+Thursday,Lunch 1,12:45,13:20,Registration,Mr J H Hunt,Sc03
+Thursday,Period 6,14:30,15:15,Further Mathematics,Mr P M MacMahon,Room 35
+Thursday,Period 7,15:15,16:00,Further Mathematics,Mr P M MacMahon,Room 35
+Friday,Period 1,08:25,09:15,Further Mathematics,Mr Sahota,Room 22
+Friday,Period 2,09:15,10:00,Further Mathematics,Mr Sahota,Room 22
+Friday,Period 3,10:00,10:45,Playwriting,Mrs S W Woodham,Room 3
+Friday,Period 4,11:15,12:00,Chemistry,Dr R Oxburgh,Sc11
+Friday,Period 5,12:00,12:45,Chemistry,Dr R Oxburgh,Sc11
+Friday,Lunch 1,12:45,13:20,Registration,Mr J H Hunt,Sc03
+Friday,Period 6,14:30,15:15,English,Mr J Garrett,Room 38
+Friday,Period 7,15:15,16:00,English,Mr J Garrett,Room 38

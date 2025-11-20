@@ -3,15 +3,15 @@
     "Monday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "English",
-        "teacher": "Mr Mitropoulos-Monk",
+        "teacher": "Mr J Mitropoulos-Monk",
         "room": "Room 38"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
         "teacher": "Mr Sahota",
@@ -53,15 +53,15 @@
     "Tuesday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Chemistry",
+        "teacher": "Dr R Oxburgh",
+        "room": "Sc12"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
         "teacher": "Mr Sahota",
@@ -88,46 +88,46 @@
         "start": "12:00",
         "end": "12:45",
         "lesson": "Further Mathematics",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
+        "teacher": "Mr S Vijayan",
+        "room": "Room 34"
       },
       {
         "period": "Lunch 1",
         "start": "12:45",
         "end": "13:20",
         "lesson": "Registration",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
+        "teacher": "Mr J H Hunt",
+        "room": "Sc03"
       },
       {
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr S Vijayan",
-        "room": "Room 34"
+        "lesson": "English",
+        "teacher": "Mr J Garrett",
+        "room": "Room 38"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr S Vijayan",
-        "room": "Room 34"
+        "lesson": "English",
+        "teacher": "Mr J Garrett",
+        "room": "Room 38"
       }
     ],
     "Wednesday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Chemistry",
-        "teacher": "Dr R Oxburgh",
-        "room": "Sc12"
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Chemistry",
         "teacher": "Miss A Gashi",
@@ -169,7 +169,7 @@
         "period": "Lunch 3",
         "start": "13:55",
         "end": "14:30",
-        "lesson": "Ignore This Lesso n",
+        "lesson": "Ignore This Lesson",
         "teacher": "Miss E Green",
         "room": "N/A"
       },
@@ -192,19 +192,11 @@
     ],
     "Thursday": [
       {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "English",
-        "teacher": "Mr J Mitropoulos-Monk",
-        "room": "Room 38"
-      },
-      {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "English",
-        "teacher": "Mr J Garrett",
+        "teacher": "Mr J Mitropoulos-Monk",
         "room": "Room 38"
       },
       {
@@ -214,14 +206,6 @@
         "lesson": "English",
         "teacher": "Mr J Garrett",
         "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Playwriting",
-        "teacher": "Mrs S W Woodham",
-        "room": "Room 3"
       },
       {
         "period": "Period 5",
@@ -243,31 +227,31 @@
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "Chemistry",
-        "teacher": "Dr R Oxburgh",
-        "room": "Sc08"
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "Chemistry",
-        "teacher": "Dr R Oxburgh",
-        "room": "Sc08"
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       }
     ],
     "Friday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "English",
         "teacher": "Mr J Garrett",
         "room": "Room 38"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Playwriting",
         "teacher": "Mrs S W Woodham",
@@ -309,17 +293,17 @@
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
+        "lesson": "Chemistry",
+        "teacher": "Dr R Oxburgh",
+        "room": "Sc08"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
+        "lesson": "Chemistry",
+        "teacher": "Dr R Oxburgh",
+        "room": "Sc08"
       }
     ]
   },
@@ -327,15 +311,15 @@
     "Monday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Chemistry",
-        "teacher": "Dr R Oxburgh",
-        "room": "Sc12"
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
         "teacher": "Mr D Lafferty",
@@ -345,82 +329,16 @@
         "period": "Period 3",
         "start": "10:00",
         "end": "10:45",
-        "lesson": "English",
-        "teacher": "Mr J Garrett",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
         "lesson": "Further Mathematics",
-        "teacher": "Mr Sahota",
-        "room": "Room 22"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr Sahota",
-        "room": "Room 22"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mr J H Hunt",
-        "room": "Sc03"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "English",
-        "teacher": "Mr J Garrett",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "English",
-        "teacher": "Mr J Garrett",
-        "room": "Room 38"
-      }
-    ],
-    "Tuesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr Sahota",
-        "room": "Room 46"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Playwriting",
-        "teacher": "Mrs S W Woodham",
-        "room": "Room 3"
+        "teacher": "Mr S Vijayan",
+        "room": "Room 34"
       },
       {
         "period": "Period 4",
         "start": "11:15",
         "end": "12:00",
         "lesson": "English",
-        "teacher": "Mr Mitropoulos-Monk",
+        "teacher": "Mr J Mitropoulos-Monk",
         "room": "Room 38"
       },
       {
@@ -443,31 +361,31 @@
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
+        "lesson": "Life Skills",
+        "teacher": "Miss B Wu",
+        "room": "Room 19"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr P M MacMahon",
-        "room": "Room 35"
+        "lesson": "Life Skills",
+        "teacher": "Miss B Wu",
+        "room": "Room 19"
       }
     ],
-    "Wednesday": [
+    "Tuesday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr Sahota",
-        "room": "Room 46"
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Chemistry",
+        "teacher": "Dr R Oxburgh",
+        "room": "Sc12"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Chemistry",
         "teacher": "Dr R Oxburgh",
@@ -477,9 +395,59 @@
         "period": "Period 3",
         "start": "10:00",
         "end": "10:45",
+        "lesson": "English",
+        "teacher": "Mr J Garrett",
+        "room": "Room 38"
+      },
+      {
+        "period": "Period 4",
+        "start": "11:15",
+        "end": "12:00",
         "lesson": "Further Mathematics",
-        "teacher": "Mr S Vijayan",
-        "room": "Room 34"
+        "teacher": "Mr Sahota",
+        "room": "Room 22"
+      },
+      {
+        "period": "Period 5",
+        "start": "12:00",
+        "end": "12:45",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr Sahota",
+        "room": "Room 22"
+      },
+      {
+        "period": "Lunch 1",
+        "start": "12:45",
+        "end": "13:20",
+        "lesson": "Registration",
+        "teacher": "Mr J H Hunt",
+        "room": "Sc03"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": "Period 1",
+        "start": "08:25",
+        "end": "09:15",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr Sahota",
+        "room": "Room 46"
+      },
+      {
+        "period": "Period 2",
+        "start": "09:15",
+        "end": "10:00",
+        "lesson": "Further Mathematics",
+        "teacher": "Mr Sahota",
+        "room": "Room 46"
+      },
+      {
+        "period": "Period 3",
+        "start": "10:00",
+        "end": "10:45",
+        "lesson": "Playwriting",
+        "teacher": "Mrs S W Woodham",
+        "room": "Room 3"
       },
       {
         "period": "Period 4",
@@ -525,19 +493,19 @@
     "Thursday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "English",
         "teacher": "Mr J Mitropoulos-Monk",
         "room": "Room 38"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
-        "lesson": "Further Mathematics",
-        "teacher": "Mr D Lafferty",
-        "room": "Room 21"
+        "lesson": "English",
+        "teacher": "Mr J Mitropoulos-Monk",
+        "room": "Room 38"
       },
       {
         "period": "Period 3",
@@ -546,22 +514,6 @@
         "lesson": "Further Mathematics",
         "teacher": "Mr S Vijayan",
         "room": "Room 34"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
       },
       {
         "period": "Lunch 1",
@@ -575,31 +527,31 @@
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "Life Skills",
-        "teacher": "Miss B Wu",
-        "room": "Room 19"
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "Life Skills",
-        "teacher": "Miss B Wu",
-        "room": "Room 19"
+        "lesson": "Further Mathematics",
+        "teacher": "Mr P M MacMahon",
+        "room": "Room 35"
       }
     ],
     "Friday": [
       {
         "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
+        "start": "08:25",
+        "end": "09:15",
         "lesson": "Further Mathematics",
         "teacher": "Mr Sahota",
         "room": "Room 22"
       },
       {
         "period": "Period 2",
-        "start": "9:15",
+        "start": "09:15",
         "end": "10:00",
         "lesson": "Further Mathematics",
         "teacher": "Mr Sahota",
@@ -641,17 +593,17 @@
         "period": "Period 6",
         "start": "14:30",
         "end": "15:15",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
+        "lesson": "English",
+        "teacher": "Mr J Garrett",
+        "room": "Room 38"
       },
       {
         "period": "Period 7",
         "start": "15:15",
         "end": "16:00",
-        "lesson": "N/A",
-        "teacher": "N/A",
-        "room": "N/A"
+        "lesson": "English",
+        "teacher": "Mr J Garrett",
+        "room": "Room 38"
       }
     ]
   }
