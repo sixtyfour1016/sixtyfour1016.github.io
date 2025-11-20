@@ -1,0 +1,33 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Further Mathematics,Mr J Jordan,Room 31
+Monday,Period 2,09:15,10:00,Design,Miss L Green,Design Department
+Monday,Period 3,10:00,10:45,Design,Ms S Whyte / Miss L Green,Design Department
+Monday,Period 4,11:15,12:00,Physics,Mr A Birchmore,Sc04
+Monday,Period 5,12:00,12:45,Physics,Mr A Birchmore,Sc04
+Monday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Monday,Period 6,14:30,15:15,Physics,Mr J W McCarthy,Sc04
+Tuesday,Period 1,08:25,09:15,Further Mathematics,Mr J Jordan,Room 25
+Tuesday,Period 2,09:15,10:00,Further Mathematics,Mr J Jordan,Room 25
+Tuesday,Period 4,11:15,12:00,Design,Mr N L Creak,Design Department
+Tuesday,Period 5,12:00,12:45,Design,Mr N L Creak,Design Department
+Tuesday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Tuesday,Period 6,14:30,15:15,Further Mathematics,Mr D Lafferty,Room 31
+Tuesday,Period 7,15:15,16:00,Further Mathematics,Mr D Lafferty,Room 31
+Wednesday,Period 1,08:25,09:15,Further Mathematics,Mr D Lafferty,Room 31
+Wednesday,Period 2,09:15,10:00,Further Mathematics,Mr D Lafferty,Room 31
+Wednesday,Period 4,11:15,12:00,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Period 5,12:00,12:45,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Wednesday,Period 6,14:30,15:15,Games,Miss E Harvey,N/A
+Wednesday,Period 7,15:15,16:00,Games,Miss E Harvey,N/A
+Thursday,Period 1,08:25,09:15,Physics,Mr J W McCarthy,B1
+Thursday,Period 2,09:15,10:00,Physics,Mr J W McCarthy,B1
+Thursday,Period 3,10:00,10:45,Design,Mr N L Creak,Design Department
+Thursday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Friday,Period 1,08:25,09:15,Design,Miss L Green,Design Department
+Friday,Period 2,09:15,10:00,Design,Miss L Green,Design Department
+Friday,Period 4,11:15,12:00,Further Mathematics,Mr D Lafferty,Room 46
+Friday,Period 5,12:00,12:45,Further Mathematics,Mr D Lafferty,Room 46
+Friday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Friday,Period 6,14:30,15:15,Physics,Mr A Birchmore,Sc04
+Friday,Period 7,15:15,16:00,Physics,Mr A Birchmore,Sc04
