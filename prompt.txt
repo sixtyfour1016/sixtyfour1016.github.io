@@ -6,7 +6,7 @@ Transcribe timetable grids from two PDF files—one named with "Week A" and one 
 
 - Structure: top keys are weeks ("Week A" and "Week B"), each with days ("Monday"–"Friday"), each day is an array of objects for every lesson (including registration) in timetable order.
 - For every period/registration shown, capture:
-  - "period": period number (string, e.g. "1", "Registration")
+  - "period": period number (string, e.g. "Period 1", "Lunch 1")
   - "start": ("HH:MM")
   - "end": ("HH:MM")
   - "lesson": lesson/registration name (or "N/A")

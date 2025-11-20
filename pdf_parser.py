@@ -35,11 +35,15 @@ def extract_text_blocks(response) -> Iterable[str]:
     Yield every text fragment we can find.
     """
     if hasattr(response, "output"):
+        yielded = False
         for output in response.output:
             for item in getattr(output, "content", []):
                 text = _extract_value(getattr(item, "text", None))
                 if text:
+                    yielded = True
                     yield text
+        if yielded:
+            return
     if hasattr(response, "content"):
         for item in getattr(response, "content", []):
             text = _extract_value(getattr(item, "text", None))

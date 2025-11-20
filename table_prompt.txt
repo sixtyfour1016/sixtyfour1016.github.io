@@ -1,11 +1,17 @@
-You are given a PDF timetable for a single week (either Week A or Week B). Read every lesson/registration row and transcribe it to CSV exactly in this schema:
+You are given a PDF timetable for a single week. Read every lesson/registration row and transcribe it to CSV exactly in this schema:
 
 Day,Period,Start,End,Lesson,Teacher,Room
 
 Rules:
+- The first line of your reply MUST be the header above, spelled exactly and included even if the PDF does not show it.
 - Preserve the day and timetable order from the PDF.
 - Period must keep the label from the grid (e.g. "Period 1", "Registration", "Lunch 2").
 - Start/End use 24-hour HH:MM format.
 - Lesson/Teacher/Room must be copied exactly; use "N/A" when unreadable or blank.
-- Include registration and study periods explicitly; never drop rows.
-- Output only CSV text. Do not wrap in Markdown fences or explanations.
+- Include registration, study periods, lunches, and any other blocks explicitly; never drop rows.
+- Output only CSV text with one row per period. Do not wrap in Markdown fences or explanations.
+
+Example of the required structure (replace with real data):
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Example Lesson,Ms Example,Room 1
+Tuesday,Registration,12:45,13:20,Registration,Mr Tutor,N/A

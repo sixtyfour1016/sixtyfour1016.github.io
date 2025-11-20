@@ -3,12 +3,12 @@ import subprocess
 import sys
 from pathlib import Path
 
-DEFAULT_MODEL = "gpt-4.1-mini"
+DEFAULT_MODEL = "gpt-4.1"
 
 
-def run_step(cmd, description: str):
+def run_step(cmd, description: str, cwd=None):
     print(f"\n▶️ {description}")
-    subprocess.run(cmd, check=True)
+    subprocess.run(cmd, check=True, cwd=cwd)
 
 
 def parse_args() -> argparse.Namespace:
@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         default=DEFAULT_MODEL,
-        help="Model name passed to pdf_parser (default: gpt-4.1-mini).",
+        help="Model name passed to pdf_parser (default: gpt-4.1).",
     )
     parser.add_argument(
         "--prompt",
@@ -53,6 +53,7 @@ def main():
     pdf_parser_path = repo_root / "pdf_parser.py"
     csv_to_json_path = repo_root / "csv_to_json.py"
     ics_path = repo_root / "ics.py"
+    push_script = repo_root / "push_artifacts.py"
 
     if not args.skip_pdf:
         for week in ("a", "b"):
@@ -69,19 +70,28 @@ def main():
                     str(args.prompt),
                 ],
                 f"Parsing Week {week.upper()} PDF",
+                cwd=repo_root,
             )
 
     if not args.skip_json:
         run_step(
             [sys.executable, str(csv_to_json_path), username],
             "Merging CSVs into JSON",
+            cwd=repo_root,
         )
 
     if not args.skip_ics:
         run_step(
             [sys.executable, str(ics_path), username],
             "Generating ICS file",
+            cwd=repo_root,
         )
+
+    run_step(
+        [sys.executable, str(push_script), username],
+        "Staging and pushing timetable artifacts",
+        cwd=repo_root,
+    )
 
     print(f"\n✅ Pipeline complete for {username}")
 

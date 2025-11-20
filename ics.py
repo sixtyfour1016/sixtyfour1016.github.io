@@ -2,7 +2,7 @@
 import json
 import sys
 import os
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta, date, timezone
 import re
 import hashlib
 
@@ -229,7 +229,8 @@ def build_ics_event(entry, d: date) -> str:
     # Use TZID for start/end
     dtstart_line = f"DTSTART;TZID={TZID}:{format_dt(start_dt)}"
     dtend_line = f"DTEND;TZID={TZID}:{format_dt(end_dt)}"
-    dtstamp_line = f"DTSTAMP:{format_dt(datetime.utcnow())}Z"
+    stamp = datetime.now(timezone.utc)
+    dtstamp_line = f"DTSTAMP:{stamp.strftime('%Y%m%dT%H%M%S')}Z"
 
     vevent = [
         "BEGIN:VEVENT",
