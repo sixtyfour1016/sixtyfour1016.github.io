@@ -1,594 +1,218 @@
 {
-  "Week A": {
-    "Monday": [
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 36"
-      }
-    ],
-    "Tuesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "P37"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "P37"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 36"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 36"
-      }
-    ],
-    "Wednesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Religious Studies",
-        "teacher": "Mr E Dunleavy",
-        "room": "Room 44"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B4"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B4"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Games",
-        "teacher": "Ms K Webb",
-        "room": "Room 44"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Games",
-        "teacher": "Ms K Webb",
-        "room": "Room 44"
-      }
-    ],
-    "Thursday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B3"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 41"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 43"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Tu",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      }
-    ],
-    "Friday": [
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mrs E Dunleavy",
-        "room": "Room 41"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Religious Studies",
-        "teacher": "Mrs E Dunleavy",
-        "room": "Room 41"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      }
-    ]
-  },
-  "Week B": {
-    "Monday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Religious Studies",
-        "teacher": "Mr E Dunleavy",
-        "room": "Room 43"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "P38"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "P38"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Life Skills",
-        "teacher": "Miss B Wu",
-        "room": "Room 19"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Life Skills",
-        "teacher": "Miss B Wu",
-        "room": "Room 19"
-      }
-    ],
-    "Tuesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 43"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 43"
-      }
-    ],
-    "Wednesday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Religious Studies",
-        "teacher": "Mr E Dunleavy",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mrs E Dunleavy",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B3"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Games",
-        "teacher": "Ms K Webb",
-        "room": "Room 44"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Games",
-        "teacher": "Ms K Webb",
-        "room": "Room 44"
-      }
-    ],
-    "Thursday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 41"
-      },
-      {
-        "period": "Period 3",
-        "start": "10:00",
-        "end": "10:45",
-        "lesson": "English",
-        "teacher": "Mr J Murray",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B3"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "A History of Chinese Literature",
-        "teacher": "Miss B Wu",
-        "room": "B3"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 6",
-        "start": "14:30",
-        "end": "15:15",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 44"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Religious Studies",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 44"
-      }
-    ],
-    "Friday": [
-      {
-        "period": "Period 1",
-        "start": "8:25",
-        "end": "9:15",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 2",
-        "start": "9:15",
-        "end": "10:00",
-        "lesson": "English",
-        "teacher": "Mrs S A Adams",
-        "room": "Room 38"
-      },
-      {
-        "period": "Period 4",
-        "start": "11:15",
-        "end": "12:00",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Period 5",
-        "start": "12:00",
-        "end": "12:45",
-        "lesson": "Art History",
-        "teacher": "Mrs R Taylor-Bell",
-        "room": "Room 2"
-      },
-      {
-        "period": "Lunch 1",
-        "start": "12:45",
-        "end": "13:20",
-        "lesson": "Registration",
-        "teacher": "Mrs A Barlien",
-        "room": "Room 39"
-      },
-      {
-        "period": "Period 7",
-        "start": "15:15",
-        "end": "16:00",
-        "lesson": "Extended Project",
-        "teacher": "Mr K Galazoulas",
-        "room": "Room 41"
-      }
-    ]
-  }
+    "Week A": {
+        "Monday": [
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "English",
+                "teacher": "Mr J Murray",
+                "room": "Room 38"
+            },
+            {
+                "period": "Period 3",
+                "start": "10:00",
+                "end": "10:45",
+                "lesson": "English",
+                "teacher": "Mr J Murray",
+                "room": "Room 38"
+            },
+            {
+                "period": "Period 4",
+                "start": "11:15",
+                "end": "12:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            },
+            {
+                "period": "Period 5",
+                "start": "12:00",
+                "end": "12:45",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            },
+            {
+                "period": "Lunch 1",
+                "start": "12:45",
+                "end": "13:20",
+                "lesson": "Registration",
+                "teacher": "Mrs A Barlien",
+                "room": "Room 39"
+            }
+        ],
+        "Tuesday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "Religious Studies",
+                "teacher": "Mr K Galazoulas",
+                "room": "P37"
+            },
+            {
+                "period": "Period 3",
+                "start": "10:00",
+                "end": "10:45",
+                "lesson": "Religious Studies",
+                "teacher": "Mr K Galazoulas",
+                "room": "P37"
+            }, 
+            {
+                "period": "Period 4",
+                "start": "11:15",
+                "end": "12:00",
+                "lesson": "English",
+                "teacher": "Mr J Murray",
+                "room": "Room 38"
+            },
+            {
+                "period": "Period 5",
+                "start": "12:00",
+                "end": "12:45",
+                "lesson": "English",
+                "teacher": "Mrs S A Adams",
+                "room": "Room 38"
+            }
+        ],
+        "Wednesday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Religious Studies",
+                "teacher": "Mrs E Dunleavy",
+                "room": "Room 43"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            }
+        ],
+        "Thursday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "A History of Chinese Literature",
+                "teacher": "Miss B Wu",
+                "room": "Room 2"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            }
+        ],
+        "Friday": [
+            {
+                "period": "Period 1",
+                "start": "11:15",
+                "end": "12:00",
+                "lesson": "Religious Studies",
+                "teacher": "Mrs E Dunleavy",
+                "room": "Room 41"
+            }
+        ]
+    },
+    "Week B": {
+        "Monday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Religious Studies",
+                "teacher": "Mrs E Dunleavy",
+                "room": "Room 43"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "English",
+                "teacher": "Mrs S A Adams",
+                "room": "Room 38"
+            },
+            {
+                "period": "Period 3",
+                "start": "10:00",
+                "end": "10:45",
+                "lesson": "English",
+                "teacher": "Mrs S A Adams",
+                "room": "Room 38"
+            }
+        ],
+        "Tuesday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            }
+        ],
+        "Wednesday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Religious Studies",
+                "teacher": "Mrs E Dunleavy",
+                "room": "Room 43"
+            },
+            {
+                "period": "Period 2",
+                "start": "09:15",
+                "end": "10:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            }
+        ],
+        "Thursday": [
+            {
+                "period": "Period 1",
+                "start": "08:25",
+                "end": "09:15",
+                "lesson": "Extended Project",
+                "teacher": "Mr K Galazoulas",
+                "room": "Room 41"
+            }
+        ],
+        "Friday": [
+            {
+                "period": "Period 1",
+                "start": "11:15",
+                "end": "12:00",
+                "lesson": "Art History",
+                "teacher": "Mrs R Taylor-Bell",
+                "room": "Room 2"
+            }
+        ]
+    }
 }

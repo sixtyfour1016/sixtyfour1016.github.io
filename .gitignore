@@ -1,0 +1,4 @@
+/.gititgnore
+/.env
+users/*/*.pdf
+users/*/*.jpeg
