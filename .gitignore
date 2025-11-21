@@ -2,3 +2,5 @@
 /.env
 users/*/*.pdf
 users/*/*.jpeg
+users/*/*.jpg
+/__pycache__/
