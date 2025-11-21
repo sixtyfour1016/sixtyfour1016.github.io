@@ -41,7 +41,7 @@ Steps performed:
 3. **ICS generation** (`ics.py`): iterates the school calendar from `START_DATE` → `END_DATE`, skips half-term ranges, merges double lessons, and writes `users/<username>/<username>.ics`.
 4. **Git push** (`push_artifacts.py`): stages `users/<username>/{username}_week_a.csv`, `..._week_b.csv`, `...json`, `...ics`. If there are changes it commits with `Update timetable artifacts for <username>`, pushes, and prints the ICS subscription URL:
    ```
-   🔗 ICS feed: webcal://sixtyfour1016.github.io/users/<username>/<username>.ics
+   🔗 ICS feed: https://sixtyfour1016.github.io/users/<username>/<username>.ics
    ```
 
 ### Notes
