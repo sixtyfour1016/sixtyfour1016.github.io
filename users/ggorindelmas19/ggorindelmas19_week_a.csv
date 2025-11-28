@@ -1,0 +1,33 @@
+Day,Period,Start,End,Lesson,Teacher,Room
+Monday,Period 1,08:25,09:15,Physics,Mr I Thompson,Sc04
+Monday,Period 2,09:15,10:00,Chemistry,Mrs H Doyme,Sc09
+Monday,Period 3,10:00,10:45,Chemistry,Mrs H Doyme,Sc09
+Monday,Period 4,11:15,12:00,Further Mathematics,Mr P M MacMahon,Room 35
+Monday,Period 5,12:00,12:45,Further Mathematics,Mr P M MacMahon,Room 35
+Monday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Tuesday,Period 1,08:25,09:15,Further Mathematics,Mr J Dean,Room 32
+Tuesday,Period 2,09:15,10:00,Further Mathematics,Mr J Dean,Room 32
+Tuesday,Period 3,10:00,10:45,Further Mathematics,Mr A Murray,C4
+Tuesday,Period 4,11:15,12:00,Chemistry,Miss R Thomas,Sc11
+Tuesday,Period 5,12:00,12:45,Chemistry,Miss R Thomas,Sc11
+Tuesday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Tuesday,Period 6,14:30,15:15,Physics,Mr M Gomes,Sc02
+Tuesday,Period 7,15:15,16:00,Physics,Mr M Gomes,Sc02
+Wednesday,Period 2,09:15,10:00,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Period 3,10:00,10:45,Further Mathematics,Mr P M MacMahon,Room 35
+Wednesday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Wednesday,Lunch 3,13:55,14:30,Ignore This Lesson,Miss E Green,N/A
+Wednesday,Period 6,14:30,15:15,Games,Mrs N Maclean,N/A
+Wednesday,Period 7,15:15,16:00,Games,Mrs N Maclean,N/A
+Thursday,Period 2,09:15,10:00,Physics,Mr I Thompson,Sc01
+Thursday,Period 3,10:00,10:45,Physics,Mr I Thompson,Sc01
+Thursday,Period 4,11:15,12:00,Further Mathematics,Mr J Dean,Room 44
+Thursday,Period 5,12:00,12:45,Tu,Miss L Green,Design Department
+Thursday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Thursday,Period 6,14:30,15:15,Chemistry,Miss R Thomas,Sc13
+Thursday,Period 7,15:15,16:00,Chemistry,Miss R Thomas,Sc13
+Friday,Period 1,08:25,09:15,Physics,Mr M Gomes,Sc02
+Friday,Period 4,11:15,12:00,Further Mathematics,Mr J Dean,Room 32
+Friday,Lunch 1,12:45,13:20,Registration,Miss L Green,Design Department
+Friday,Period 6,14:30,15:15,Further Mathematics,Mr A Murray,Room 21
+Friday,Period 7,15:15,16:00,Further Mathematics,Mr A Murray,Room 21
