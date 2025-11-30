@@ -1,68 +1,76 @@
-# Timetable Generation Pipeline
+# Timetable Generation Pipeline (Type-first layout)
 
-This repository turns two timetable PDFs (Week A/B) into a merged JSON structure, generates an `.ics` calendar, and pushes the artifacts to GitHub so they can be subscribed to as calendars.
-
-## Contents
-
-| File | Purpose |
-| --- | --- |
-| `main.py` | Orchestrates the full pipeline for a username. |
-| `pdf_parser.py` | Sends a PDF + prompt to OpenAI Responses API and saves CSV output. |
-| `csv_to_json.py` | Merges Week A/B CSVs into the nested JSON schema (`Week -> Day -> periods`). |
-| `ics.py` | Builds an iCalendar feed from the JSON, respecting UK term dates. |
-| `push_artifacts.py` | Stages `{username}_week_*.csv`, `{username}.json`, `{username}.ics`, commits, pushes, and prints the public ICS URL. |
-| `table_prompt.txt` | Prompt handed to GPT so CSV output is always the same shape. |
+This turns two timetable PDFs (Week A/B) into CSV → raw JSON → cleaned JSON (user rules) → ICS, then uploads ICS to Cloudflare R2. Artifacts are stored by type:
+- `pdf/{user}/week_a.pdf`, `week_b.pdf`
+- `csv/{user}/week_a.csv`, `week_b.csv`
+- `json/{user}/raw.json` (from CSV), `json/{user}/{user}.json` (post-processed)
+- `ics/{user}.ics`
+- User rules: `rules/{user}.txt`
+- Archives: `archive/<type>/<user>/<version>/...`
 
 ## Prerequisites
+- Python 3.10+
+- Install deps: `pip install -r requirements.txt` (openai, python-dotenv, boto3, etc.)
+- `.env`:
+  - `OPENAI_API_KEY=...`
+  - R2 creds for upload: `CLOUDFLARE_ACCOUNT_ID=...`, `CLOUDFLARE_ACCESS_KEY_ID=...`, `CLOUDFLARE_SECRET_ACCESS_KEY=...`, `R2_BUCKET=...` (optional `R2_ENDPOINT=https://<account>.r2.cloudflarestorage.com`)
+  - KV/API for token sync: `CLOUDFLARE_API_TOKEN=...` (KV write), `CLOUDFLARE_KV_NAMESPACE_ID=...`
+  - Optional for printing links: `ICS_BASE_URL=https://your-worker.yourdomain.com`
+- PDFs placed at `pdf/{user}/week_a.pdf` and `pdf/{user}/week_b.pdf` (user is dotted, e.g., `m.yang20`).
+- Optional: add per-user rules in `rules/{user}.txt` (plain text instructions).
 
-1. **Python 3.10+** (matching the environment used for `python3`).
-2. `pip install -r requirements.txt` equivalents (currently `openai`, `python-dotenv`).
-3. **OpenAI API key** with access to `gpt-4.1` family—store it in `.env`:
-   ```bash
-   OPENAI_API_KEY=sk-...
-   ```
-   `pdf_parser.py` loads `.env` automatically via `python-dotenv`.
-4. Put each student’s PDFs under `users/<username>/<username>_week_a.pdf` and `users/<username>_week_b.pdf`.
-5. Git remote configured (e.g. GitHub). The repo should be clean before running the pipeline.
-
-## Running the pipeline
-
+## Main pipeline (end-to-end)
+Run:
 ```bash
-python main.py <username> \
+python3 main.py <user> \
   [--model gpt-4.1] \
   [--prompt table_prompt.txt] \
-  [--skip-pdf] [--skip-json] [--skip-ics]
+  [--skip-pdf] [--skip-json] [--skip-post] [--skip-ics]
+```
+Steps executed:
+1) `pdf_parser.py` → CSVs to `csv/{user}/week_a.csv` and `week_b.csv` (uses `table_prompt.txt` and GPT).
+2) `csv_to_json.py` → merged `json/{user}/raw.json`.
+3) `postprocess_json.py` → applies rules (from `rules/{user}.txt` or `--rules-file`); writes `json/{user}/{user}.json`. With `--copy-if-no-rules`, it will copy raw to output if no rules exist.
+4) `ics.py` → generates `ics/{user}.ics` from cleaned JSON.
+5) `push_to_r2.py` → uploads `ics/{user}.ics` to R2 (`ics/{user}.ics` key).
+
+Use the skip flags to bypass steps if inputs already exist.
+
+## Archiving before updates
+Use `archive_artifacts.py` to snapshot current files to `archive/<type>/<user>/<version>/...`:
+- Specific user: `python3 archive_artifacts.py m.yang20`
+- All users: `python3 archive_artifacts.py --all`
+- Custom version label: `python3 archive_artifacts.py m.yang20 --version v2`
+
+## Token generation (for Worker access)
+Generate per-user tokens from existing ICS files:
+```bash
+python3 generate_tokens.py          # text output
+python3 generate_tokens.py --json   # JSON output
+```
+Store the tokens in Cloudflare KV (binding `TOKENS`, key=user, value=token).
+
+## Upload helpers
+- `push_to_r2.py <user>`: upload a single ICS to R2.
+- `upload_and_push_r2.py`: ensure dotted ICS filenames in `ics/` and upload all to R2.
+- `sync_tokens_to_kv.py --tokens <tokens.json or ics/>`: put user tokens into Cloudflare KV via API.
+
+## User rules example
+Place rules in `rules/{user}.txt`. Example (`rules/m.yang20.txt`):
+```
+When the subject is “Further Mathematics”, rename it according to the teacher’s surname:
+Chang → Pure
+Conlan → Stats
+Vijayan → Mechanics
+Sahota → Fun Maths
+Do not keep “Mr”, “Ms”, or initials — surname only.
+Keep room names exactly as shown (e.g. Sc11, Room 22, B1, etc.).
 ```
 
-Steps performed:
-
-1. **PDF → CSV** (`pdf_parser.py`): uploads the PDF (`assistants` purpose), calls OpenAI Responses, and enforces the CSV header `Day,Period,Start,End,Lesson,Teacher,Room`. One call per week (`--week a/b`). Defaults to `gpt-4.1`, configurable via `--model`.
-2. **CSV merge** (`csv_to_json.py`): validates headers, merges into the JSON shape expected by `ics.py`.
-3. **ICS generation** (`ics.py`): iterates the school calendar from `START_DATE` → `END_DATE`, skips half-term ranges, merges double lessons, and writes `users/<username>/<username>.ics`.
-4. **Git push** (`push_artifacts.py`): stages `users/<username>/{username}_week_a.csv`, `..._week_b.csv`, `...json`, `...ics`. If there are changes it commits with `Update timetable artifacts for <username>`, pushes, and prints the ICS subscription URL:
-   ```
-   🔗 ICS feed: https://sixtyfour1016.github.io/users/<username>/<username>.ics
-   ```
-
-### Notes
-
-- Use `--skip-pdf`, `--skip-json`, or `--skip-ics` to re-run only part of the pipeline. The git push still runs, so existing artifacts are staged/committed if they changed.
-- `table_prompt.txt` now includes an example row and enforces that models output the header line even if it is absent in the PDF.
-- If the Responses API ever changes shape, `pdf_parser.py` contains fallbacks (`response.output`, `response.content`, `output_text`) to keep parsing robust.
-
-## Troubleshooting
-
-- **Missing `openai` module**: install via `python -m pip install openai`.
-- **Model omits header / duplicates rows**: the parser rejects CSVs whose first row isn’t the canonical header. Adjust `table_prompt.txt` and rerun `main.py`.
-- **Calendar duplicates periods**: we now consume only `response.output` to avoid double text; ensure you’re on the latest `pdf_parser.py`.
-- **Push step fails**: ensure you have write access to the remote, no pre-commit hooks blocking, and the repo isn’t in a detached HEAD state.
-- **ICS subscription URL**: For GitHub Pages, the HTTPS URL (`https://<user>.github.io/.../<username>.ics`) already serves `text/calendar`, so calendar apps treat it as a feed even without the `webcal://` scheme.
-
-## Adding new students
-
-1. Create `users/<username>/`.
-2. Drop `week_a` and `week_b` PDFs in that folder.
-3. Run `python main.py <username>`.
-4. Share the printed ICS URL (either `webcal://...` or the HTTPS equivalent) with the student.
-
-That’s it—the pipeline handles the rest end-to-end.
+## Layout summary
+- `pdf/{user}/week_a.pdf`, `week_b.pdf`
+- `csv/{user}/week_a.csv`, `week_b.csv`
+- `json/{user}/raw.json`, `json/{user}/{user}.json`
+- `ics/{user}.ics`
+- `rules/{user}.txt`
+- `archive/<type>/<user>/<version>/...`

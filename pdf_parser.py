@@ -8,7 +8,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-DEFAULT_MODEL = "gpt-4.1-mini"
+DEFAULT_MODEL = "gpt-4.1"
 CSV_HEADER = ["Day", "Period", "Start", "End", "Lesson", "Teacher", "Room"]
 
 
@@ -114,7 +114,7 @@ def call_model(pdf_path: Path, prompt: str, model_name: str) -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Convert timetable PDF to CSV via GPT.")
-    parser.add_argument("username", help="Student username (folder inside users/)")
+    parser.add_argument("username", help="Student username (dotted, e.g., k.thang19)")
     parser.add_argument(
         "--week",
         choices=["a", "b"],
@@ -148,14 +148,16 @@ def parse_args() -> argparse.Namespace:
 def main():
     args = parse_args()
     repo_root = Path(__file__).resolve().parent
-    user_dir = repo_root / "users" / args.username
-    pdf_path = args.pdf or user_dir / f"{args.username}_week_{args.week}.pdf"
-    output_path = args.output or user_dir / f"{args.username}_week_{args.week}.csv"
+    pdf_dir = repo_root / "pdf" / args.username
+    csv_dir = repo_root / "csv" / args.username
+    pdf_path = args.pdf or pdf_dir / f"week_{args.week}.pdf"
+    output_path = args.output or csv_dir / f"week_{args.week}.csv"
     prompt_text = load_prompt(args.prompt)
 
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF not found: {pdf_path}")
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     csv_text = call_model(pdf_path, prompt_text, args.model)
     output_path.write_text(csv_text, encoding="utf-8")
     print(f"✅ Wrote CSV for Week {args.week.upper()} to {output_path}")

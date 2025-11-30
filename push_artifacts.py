@@ -5,9 +5,9 @@ from pathlib import Path
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Stage, commit, and push timetable artifacts for a user."
+        description="Stage, commit, and push timetable artifacts for a user (type-first layout)."
     )
-    parser.add_argument("username", help="Student username (folder inside users/)")
+    parser.add_argument("username", help="Student username (dotted, e.g., k.thang19)")
     parser.add_argument(
         "--message",
         default=None,
@@ -30,13 +30,12 @@ def main():
     args = parse_args()
     repo_root = args.repo_root
     username = args.username
-    user_dir = repo_root / "users" / username
 
     targets = [
-        user_dir / f"{username}_week_a.csv",
-        user_dir / f"{username}_week_b.csv",
-        user_dir / f"{username}.json",
-        user_dir / f"{username}.ics",
+        repo_root / "csv" / username / "week_a.csv",
+        repo_root / "csv" / username / "week_b.csv",
+        repo_root / "json" / username / f"{username}.json",
+        repo_root / "ics" / f"{username}.ics",
     ]
     existing = [str(p) for p in targets if p.exists()]
 
@@ -61,8 +60,6 @@ def main():
 
     print("▶️ Pushing changes")
     run_git(["push"], repo_root)
-    ics_link = f"https://sixtyfour1016.github.io/users/{username}/{username}.ics"
-    print(f"🔗 ICS feed: {ics_link}")
 
 if __name__ == "__main__":
     main()

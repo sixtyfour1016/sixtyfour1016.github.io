@@ -1,6 +1,12 @@
 /.gititgnore
 /.env
-users/*/*.pdf
-users/*/*.jpeg
-users/*/*.jpg
+/csv
+/ics
+/json
+/pdf
+/archive
+/.vscode
 /__pycache__/
+/rules
+/node_modules
+/.wrangler

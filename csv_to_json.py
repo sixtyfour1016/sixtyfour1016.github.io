@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Merge Week A/B CSVs into a single timetable JSON file."
     )
-    parser.add_argument("username", help="Student username (folder inside users/)")
+    parser.add_argument("username", help="Student username (dotted, e.g., k.thang19)")
     parser.add_argument(
         "--week-a",
         type=Path,
@@ -61,16 +61,19 @@ def parse_args() -> argparse.Namespace:
 def main():
     args = parse_args()
     repo_root = Path(__file__).resolve().parent
-    user_dir = repo_root / "users" / args.username
-    csv_a = args.week_a or user_dir / f"{args.username}_week_a.csv"
-    csv_b = args.week_b or user_dir / f"{args.username}_week_b.csv"
-    output = args.output or user_dir / f"{args.username}.json"
+    csv_dir = repo_root / "csv" / args.username
+    json_dir = repo_root / "json" / args.username
+
+    csv_a = args.week_a or csv_dir / "week_a.csv"
+    csv_b = args.week_b or csv_dir / "week_b.csv"
+    output = args.output or json_dir / "raw.json"
 
     data = {
         "Week A": load_week(csv_a),
         "Week B": load_week(csv_b),
     }
 
+    output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"✅ Wrote merged timetable JSON to {output}")
 

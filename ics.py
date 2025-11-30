@@ -2,6 +2,7 @@
 import json
 import sys
 import os
+from pathlib import Path
 from datetime import datetime, timedelta, date, timezone
 import re
 import hashlib
@@ -253,13 +254,9 @@ def main():
         sys.exit(1)
 
     username = sys.argv[1]
-    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "users", username)
-
-    json_file = os.path.join(base_dir, f"{username}.json")
-    output_file = os.path.join(base_dir, f"{username}.ics")
-
-    if not os.path.exists(base_dir):
-        os.makedirs(base_dir, exist_ok=True)
+    repo_root = Path(__file__).resolve().parent
+    json_file = repo_root / "json" / username / f"{username}.json"
+    output_file = repo_root / "ics" / f"{username}.ics"
 
     if not os.path.exists(json_file):
         print(f"❌ Input file not found: {json_file}")
@@ -313,6 +310,7 @@ def main():
 
     ics_lines.append("END:VCALENDAR")
 
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(ics_lines))
 

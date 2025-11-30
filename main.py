@@ -15,7 +15,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="End-to-end timetable pipeline for a given username."
     )
-    parser.add_argument("username", help="Student username (folder inside users/)")
+    parser.add_argument("username", help="Student username (dotted, e.g., k.thang19)")
     parser.add_argument(
         "--model",
         default=DEFAULT_MODEL,
@@ -42,6 +42,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip ICS generation.",
     )
+    parser.add_argument(
+        "--skip-post",
+        action="store_true",
+        help="Skip post-processing JSON via GPT.",
+    )
     return parser.parse_args()
 
 
@@ -53,7 +58,8 @@ def main():
     pdf_parser_path = repo_root / "pdf_parser.py"
     csv_to_json_path = repo_root / "csv_to_json.py"
     ics_path = repo_root / "ics.py"
-    push_script = repo_root / "push_artifacts.py"
+    push_script = repo_root / "push_to_r2.py"
+    postprocess_path = repo_root / "postprocess_json.py"
 
     if not args.skip_pdf:
         for week in ("a", "b"):
@@ -80,6 +86,13 @@ def main():
             cwd=repo_root,
         )
 
+    if not args.skip_post:
+        run_step(
+            [sys.executable, str(postprocess_path), username, "--copy-if-no-rules"],
+            "Post-processing JSON with user rules",
+            cwd=repo_root,
+        )
+
     if not args.skip_ics:
         run_step(
             [sys.executable, str(ics_path), username],
@@ -89,7 +102,7 @@ def main():
 
     run_step(
         [sys.executable, str(push_script), username],
-        "Staging and pushing timetable artifacts",
+        "Uploading timetable ICS to Cloudflare R2",
         cwd=repo_root,
     )
 
